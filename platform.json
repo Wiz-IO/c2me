@@ -15,7 +15,7 @@
   "packages"      : {
     "framework-c2me" : {
       "type"      : "framework",
-      "xversion"   : "https://github.com/Wiz-IO/framework-c2me.git"
+      "version"   : "https://github.com/Wiz-IO/framework-c2me.git"
     },
     "toolchain-gccarmnoneeabi": {
       "type"      : "toolchain",
