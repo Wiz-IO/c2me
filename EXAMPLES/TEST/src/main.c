@@ -14,12 +14,12 @@ int test(int x)
 int main(void)
 {
 	aaa = test(aaa);
-	delay(500);					 // динамична - API
-	digitalWrite(0, 0);			 // динамична - API
-	delayMicroseconds(500000);	 // динамична - API
-	digitalWrite(0, 1);			 // динамична - API
-	sec = seconds();			 // динамична - API
-	mil = millis();				 // динамична - API
-	mic = micros();				 // динамична - API
-	return strlen("Hello Word"); // динамична - API
+	delay(500);
+	digitalWrite(0, 0);
+	delayMicroseconds(500000);
+	digitalWrite(0, 1);
+	sec = seconds();
+	mil = millis();
+	mic = micros();
+	return strlen("Hello Word");
 }
