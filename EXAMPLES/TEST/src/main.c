@@ -21,5 +21,5 @@ int main(void)
 	sec = seconds();
 	mil = millis();
 	mic = micros();
-	return strlen("Hello Word");
+	return strlen("Hello World");
 }
