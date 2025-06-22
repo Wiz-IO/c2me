@@ -1,1 +1,1 @@
-# C2ME
+# C2ME ( client side )
