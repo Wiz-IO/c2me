@@ -1,0 +1,18 @@
+{
+  "name":         "WizIO C2ME Board",
+  "url":          "https://github.com/Wiz-IO/c2me",
+  "vendor":       "WizIO",
+
+  "frameworks":   [ "c2me" ],
+
+  "build": {
+      "cortex" : [ ]
+  },
+
+  "debug": { },
+
+  "upload": {
+    "maximum_ram_size"  : 32768,
+    "maximum_size"      : 32768
+  }
+}

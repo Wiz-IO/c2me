@@ -1,0 +1,26 @@
+{
+  "name"                : "c2me",
+  "title"               : "WizIO - C2ME",
+  "description"         : "Development PlatformIO for C2ME 2025 Georgi Angelov",
+  "homepage"            : "https://github.com/Wiz-IO",
+  "engines"             : { "platformio": "^5" },
+  "repository"          : { "type": "git", "url": "https://github.com/Wiz-IO/c2me.git" },
+  "packageRepositories" : [ "http://dl.platformio.org/packages/manifest.json" ],
+  "version"             : "1.0.0",
+  "frameworks"  : {
+    "c2me"    : {
+      "script"  : "builder/frameworks/build-c2me.py"
+    }
+  },
+  "packages"      : {
+    "framework-c2me" : {
+      "type"      : "framework",
+      "xversion"   : "https://github.com/Wiz-IO/framework-c2me.git"
+    },
+    "toolchain-gccarmnoneeabi": {
+      "type"      : "toolchain",
+      "version"   : "~1.90201.0"
+    }
+
+  }
+}
